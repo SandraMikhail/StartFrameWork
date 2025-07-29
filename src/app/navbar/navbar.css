@@ -1,0 +1,31 @@
+.bg-teal{
+  background-color: #1ABC9C;
+  border-radius: 5px;
+}
+.teal{
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+}
+.custom-grey{
+  background-color:#2C3E50 ;
+}
+.navbar{
+  height: 56px;
+}
+.nav-item a{
+  color: white;
+    font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  padding-left: 15px;
+
+}
+.navbar-brand{
+  color: white;
+  font-weight: 700;
+  line-height: 46px;
+  font-size: 31px;
+  padding: 15px;
+}

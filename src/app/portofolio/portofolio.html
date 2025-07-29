@@ -1,0 +1,32 @@
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center my-5">portfolio component</h1>
+      <div class="underline position-relative d-flex justify-content-center">
+        <i class="fa fa-star"></i>
+      </div>
+
+      <div class="row">
+        @for (product of products; track $index) {
+        <div class="col-md-4">
+          <div class="card position-relative my-5 border rounded-3">
+            <div class="card-img">
+              <img
+                [src]="product"
+                alt="image"
+                style="height: 300px"
+                class="w-100"
+              />
+            </div>
+            <div class="card-layover bg-danger" style="height: 300px">
+              <i
+                class="fa fa-plus text-white d-flex align-content-center justify-items-center"
+              ></i>
+            </div>
+          </div>
+        </div>
+        }
+      </div>
+    </div>
+  </div>
+</section>

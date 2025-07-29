@@ -1,0 +1,17 @@
+input{
+  border: 1px solid grey;
+  border-top: none;
+  border-left:none;
+  border-right:none;
+  padding-top: 20px;
+
+}
+button:hover{
+  background-color: teal;
+}
+.underline::after , .underline::before , i{
+  background-color: #2C3E50;
+}
+h1{
+  color: #2C3E50;
+}
