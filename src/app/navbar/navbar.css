@@ -1,3 +1,6 @@
+#navbar{
+  z-index: 9999999;
+}
 .bg-teal{
   background-color: #1ABC9C;
   border-radius: 5px;

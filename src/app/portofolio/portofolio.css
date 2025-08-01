@@ -1,7 +1,6 @@
 .underline::before{
   background-color: black;
 }
-
 .underline::after{
   background-color: black;
 
