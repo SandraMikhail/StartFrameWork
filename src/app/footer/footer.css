@@ -2,13 +2,26 @@
   background-color:#2C3E50 !important;
 }
 .social{
-
-  margin:50px;
+  margin: 5px 0 30px 0;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
+}
+.social svg{
+  margin: 5px;
+  line-height: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px;
 
 }
+
+
+/* I dont know why it takes the fontawesome as svg and not i
 .social i{
   margin: 25px;
+  background-color: red;
+  color: green;
+  padding: 70px;
 }
+*/
