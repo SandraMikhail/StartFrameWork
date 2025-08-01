@@ -7,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrl: './home.css'
 })
 export class Home {
+  imgSrc:String="./Immagine 2025-08-01 123737.png"
 
 }
